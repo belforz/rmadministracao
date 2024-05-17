@@ -1,0 +1,79 @@
+/* variaveis para serem usadas no código */
+.root {
+    --HoverTransition: 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    --HoverOpacity: 0.6;
+    --TextColor: #17171D;
+    /* --MainColor: #ebac8b; */
+
+    /* --MainColorLight: #ffff;
+    --SecondaryColor: #e66b6e;
+    --SecondaryColorLight: navajowhite;
+    --LightGrayColor: #dedede;
+        --primary: #EAA636;
+        --secondary: #545454;
+        --light: #FDF5EB;
+        --dark: #1E1916; */
+       
+}
+
+
+
+/* Estilos para itens de navegação */
+.navbar-nav {
+    margin-left: auto; /* Alinha os itens de navegação à direita */
+}
+
+.nav-item {
+    margin-right: 2.5rem; /* Ajuste o valor conforme necessário */
+}
+
+.nav-link{
+    color: var(--TextColor) !important;
+
+}
+
+/* Remover margem do último item */
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+/* Area do Condomino */
+
+.hoverCondomino .nav-link {
+    color: #59429e !important;
+}
+
+/* Estilos para o link quando está sendo "hovered" */
+.hoverCondomino .nav-link:hover {
+    background-color: #0295ff;
+    color: white !important;
+}
+
+
+/* Controle de reponsividade da navbar */
+
+@media (max-width: 900px) {
+    .controller-logo-mobile{
+    display: block !important;
+    opacity: 1 !important;
+    position: relative;
+    margin: 0 auto;}}
+
+.logo > img{
+    border-radius: 50%;
+    width: 70%;
+    height: 100%; /* Espaçamento à direita para separar o logotipo dos outros links */
+}
+
+@media(min-width:900px){
+    .logo{
+        margin-left:4rem;
+    }
+}
+
+/* Estilos para a logo em telas menores que 900px */
+@media (max-width: 900px) {
+    .adjust-li {
+        margin-left: 5% !important;
+    }
+}
