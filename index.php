@@ -13,8 +13,8 @@
 <!-- Principal CSS -->
 <link rel="stylesheet" href="principalstyle.css" />
 
-<!-- Icons -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+<!-- Icons Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <!-- Bootstrap CSS -->
 
@@ -36,26 +36,29 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">INSTITUCIONAL</a>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./php/historiaRM.php">INSTITUCIONAL</a>
+          </li>
+         
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVIÇOS</a>
             <ul class="dropdown-menu">
-              <li class="adjust-li" style=" margin-left: 9%;"><a class="dropdown-item" href="#"></a> R&M ADMINISTRAÇÃO</li>
-
-              <li><a class="dropdown-item" href="#">R&M ENGENHARIA</a></li>
-              <li><a class="dropdown-item" href="#">R&M TODOS</a></li>
+              <li><a class="dropdown-item" href="./php/engRM.php">R&M ENGENHARIA</a></li>
+              <li><a class="dropdown-item" href="./php/todosRM.php">R&M TODOS</a></li>
+              <li><a class="dropdown-item" href="./php/admRM.php">R&M ADMINISTRAÇÃO</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTATO</a>
+            <a class="nav-link" href="./php/contato.php">CONTATO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">BLOG</a>
+            <a class="nav-link" href="./php/blog.php">BLOG</a>
           </li>
           <li class="nav-item hoverCondomino">
-            <a class="nav-link" href="#">AREA DO CONDOMINIO</a>
+            <a class="nav-link" href="https://rafaelf.superlogica.net/clients/areadocondomino">AREA DO CONDOMINIO</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.instagram.com/remadministracao/"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
@@ -88,17 +91,17 @@
         <div class="row g-4">
           <div class="col-lg-4 col-md-6">
             <div class="position-relative mt-auto">
-              <a class="link-controller" href="#"><img class="img-fluid" src="./src/img/logoadm.png" alt=""></a>
+              <a class="link-controller" href="./php/admRM.php"><img class="img-fluid" src="./src/img/logoadm.png" alt=""></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="position-relative mt-auto">
-              <a class="link-controller" href="#"><img class="img-fluid" src="./src/img/logoeng.png" alt=""></a>
+              <a class="link-controller" href="./php/engRM.php"><img class="img-fluid" src="./src/img/logoeng.png" alt=""></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="position-relative mt-auto">
-              <a class="link-controller" href="#"><img class="img-fluid" src="./src/img/logotodos.png" alt=""></a>
+              <a class="link-controller" href="./php/todosRM.php"><img class="img-fluid" src="./src/img/logotodos.png" alt=""></a>
 
             </div>
           </div>
@@ -110,6 +113,8 @@
 
   </main>
 
+  <?php include('./php/whatsapp.php'); ?>
+
   <footer class="footer-59391">
     <div class="border-bottom pb-5 mb-4">
       <div class="container">
@@ -117,27 +122,26 @@
 
           <div class="col-lg-6 text-lg-center">
             <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0" style="margin-left:2rem;">
-              <li><a href="#">Institucional</a></li>
-              <li><a href="#">Soluções</a></li>
-              <li><a href="#">Politicas de Privacidade</a></li>
-              <li><a href="#">Termos de Uso</a></li>
+              <li><a href="./php/historiaRM.php">Institucional</a></li>
+              <li><a href="#servicos">Soluções</a></li>
+              <li><a href="./php/privacidade.php">Politicas de Privacidade</a></li>
+              <li><a href="./php/termos.php">Termos de Uso</a></li>
             </ul>
           </div>
           <div class="col-lg-3">
-            <ul class="list-unstyled nav-links social nav-right text-lg-right" style="margin-left:2rem;">
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-pinterest"></span></a></li>
+            <ul class="list-unstyled nav-links social nav-right text-lg-right" style="margin-left: 2rem;">
+                <li><a href="https://www.facebook.com/remadministracao"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/remadministracao/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
-          </div>
+        </div>
         </div>
       </div>
     </div>
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-4 text-lg-center site-logo order-1 order-lg-2 mb-3 mb-lg-0">
+        <div class="col-lg-4 site-logo order-1 order-lg-2 mb-3 mb-lg-0">
           <a href="#" class="m-0 p-0">R&M Soluções</a>
         </div>
         <div class="col-lg-4 order-2 order-lg-1 mb-3 mb-lg-0">
@@ -170,6 +174,8 @@
     </div>
 
   </footer>
+  
+  <!-- Jquery -->
   <script src="./src/js/jquery-3.3.1.min.js"></script>
   <script src="./src/js/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

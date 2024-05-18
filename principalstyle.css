@@ -49,6 +49,32 @@
     color: white !important;
 }
 
+/* Icon WhatsApp */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: #25D366; /* WhatsApp green color */
+  color: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-icon:hover {
+  background-color: #1ebe57; /* Slightly darker green for hover */
+}
+
+
 
 /* Controle de reponsividade da navbar */
 
@@ -133,17 +159,20 @@ Footer */
           outline: none; }
     .footer-59391 .social li {
       display: inline-block;
-      position: relative; }
+      position: relative;
+      margin: 0 10px; /* Adjust the value as needed for more spacing */
+    justify-content: center; }
       .footer-59391 .social li a {
         position: relative;
-        width: 40px;
-        height: 40px;
+        color: #000; /* Cor dos ícones */
+      font-size: 2rem; /* Tamanho dos ícones */
+      transition: color 0.3s;
         border-radius: 50%;
-        display: inline-block;
+        /* display: inline-block; */
         margin: 0;
         padding: 0;
-        background-color: #e6e6e6;
-        color: #333333; }
+        /* background-color: #e6e6e6; */
+        /* color: #333333; } */}
         .footer-59391 .social li a > span {
           position: absolute;
           top: 50%;
@@ -252,12 +281,14 @@ Footer */
       border: none;
       padding: 10px 20px; }
     .footer-99382 .social li {
-      display: inline-block; }
+      display: inline-block;
+      margin-right: 1rem; }
       .footer-99382 .social li a {
-        color: gray;
-        padding: 7px; }
+        color: #000; /* Cor dos ícones */
+        font-size: 1.5rem; /* Tamanho dos ícones */
+        transition: color 0.3s; }
         .footer-99382 .social li a:hover {
-          color: #fff; }
+          color: #007bff; /* Cor ao passar o mouse */ }
     .footer-99382 .copyright {
       border-top: 1px solid #595959; }
   
