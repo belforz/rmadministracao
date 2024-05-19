@@ -2,10 +2,33 @@
 --TextAdmColor: #ef4523;
 }
 
+/* FONTS */
+
+
+/* Estilizando os títulos */
+h1, h2, h3, h4, h5 {
+    font-family: 'NovaProximaFont';
+}
+
+/* Estilizando os parágrafos */
+p , li, a{
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: normal; /* Regular */
+}
+
+/* Exemplo de uso das variações */
+.light-text {
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: 300; /* Light */
+}
+
+.bold-text {
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: bold; /* Bold */
+}
 .h2-color ,.h3-color {
     color: var(--TextAdmColor);
 }
-
 
 
 
@@ -28,7 +51,22 @@
 /* Controle reponsividade */
 @media (max-width:900px){
 .image-fundo{
+    display: none;}
+    .image-fundo-s{
+        display: none;
+    }
+}
+
+
+@media(max-width:900px){
+#engbannerfront, 
+#engbannerback{
     display: none;
+}
+@media (max-width:900px){
+    .container-xxl{
+        display: block;
+    }
 }
 }
 /* 
@@ -37,14 +75,27 @@ ol {
     list-style-type: none; /* Remove os números padrão */
 }
 
-.bullet {
+.bullet, .bullet-eng, .bullet-vi {
     display: inline-block;
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #ef4523;
     margin-right: 5px;
 }
+
+.bullet {
+    background-color: #ef4523; /* Cor adm */
+}
+
+.bullet-eng {
+    background-color: #00FFFF; /* Cor engenharia */
+}
+
+.bullet-vi {
+    background-color: #160063; /* Cor missao */
+}
+
+
 
 /* Texto mobile */
 .text-container {

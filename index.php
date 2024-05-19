@@ -78,12 +78,17 @@
 
   <main class="root">
 
+  <div id="cookieConsent">
+    <div id="closeCookieConsent">×</div>
+    Este site usa cookies para melhorar a experiência do usuário. <a href="#">Saber mais</a>. <a id="acceptCookie" href="#">Aceitar</a>
+</div>
+
 
     <div class="container-xxl bg-light my-6 py-6 pt-0" style="background-color: #D3D3D3;">
       <div class="container">
 
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-          <h2 class="display-6 mb-2" style="color:var(--SecondaryColor)">Nossos Produtos</h2>
+          <h2 class="display-6 mb-2" #id="servicos" style="color:var(--SecondaryColor)">Nossos Produtos</h2>
 
         </div>
         <div class="row g-4">
@@ -120,7 +125,7 @@
 
           <div class="col-lg-6 text-lg-center">
             <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0" style="margin-left:2rem;">
-              <li><a href="./php/historiaRM.php">Institucional</a></li>
+              <li><a href="./php/quemsomos.php">Institucional</a></li>
               <li><a href="#servicos">Soluções</a></li>
               <li><a href="./php/privacidade.php">Politicas de Privacidade</a></li>
               <li><a href="./php/termos.php">Termos de Uso</a></li>
@@ -160,7 +165,7 @@
           </ul> -->
         <div class="col-lg-4 text-lg-right order-3 order-lg-3">
           <p class="m-0 text-muted"><small>&copy; 2024. R&M Soluções. Todos os direitos reservados.</small></p>
-          <p class="m-0 text-muted small-text"><small>designed by <a class="belforz" href="https://portfoliobelforz.vercel.app/">belforz</a></small></p>
+          <p class="m-0 text-muted small-text light-text"><small>designed by <a class="belforz" href="https://portfoliobelforz.vercel.app/">belforz</a></small></p>
         </div>
       </div>
 

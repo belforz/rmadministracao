@@ -15,7 +15,96 @@
         --dark: #1E1916; */
        
 }
+/* FONTE Titulos */
+@font-face {
+  font-family: 'ProximaNovaFont';
+  src: url('./fonts/ProximaNovaFont.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
 
+/* Fonte Texto Corrido */
+
+/* Definindo MyriadPro Regular */
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('./fonts/MYRIADPRO-REGULAR.OTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Definindo MyriadPro Light */
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('./fonts/MyriadPro-Light.otf') format('opentype');
+  font-weight: 300;  /* Light */
+  font-style: normal;
+}
+
+/* Definindo MyriadPro Bold */
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('./fonts/MYRIADPRO-BOLD.OTF') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Definindo outras variações de MyriadPro conforme necessário */
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('./fonts/MYRIADPRO-BOLDCOND.OTF') format('opentype');
+  font-weight: bold;
+  font-style: condensed;
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('./fonts/MYRIADPRO-BOLDCONDIT.OTF') format('opentype');
+  font-weight: bold;
+  font-style: italic condensed;
+}
+
+
+body, a{
+  font-family: 'ProximaNovaFont', 'MyriadPro';
+
+}
+/* 
+Cookie */
+
+#cookieConsent {
+  background: rgba(20, 20, 20, 0.8);
+  display: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+  left: 0;
+  z-index: 9999;
+  text-align: center;
+}
+
+#cookieConsent a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+#closeCookieConsent {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#acceptCookie {
+  background: #ffcc00;
+  color: #000;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 5px;
+}
 
 
 /* Estilos para itens de navegação */
@@ -407,13 +496,20 @@ Footer */
 creditos */
 
 .belforz {
-    text-decoration: none;
-    color: #fff;
-  }
+  text-decoration: none;
+  color: #ff5cc9;
   
-  .small-text {
-    font-size: 0.8em;  
-  }
+}
+
+.belforz:hover {
+  opacity: 0.7;  /* Restaura a opacidade total quando o link é focado/hover */
+}
+
+.small-text {
+  font-size: 0.8em;
+  opacity: 0.7;  /* Define a opacidade do texto */
+}
+
 
 @media(min-width:900px){
     .logo{

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R&M Administração</title>
-    <link rel="icon" type="image/png" href="../src/img/logo.png">
+    <link rel="icon" type="image/png" href="../src/img/logoadm.png">
 
     <!-- Principal CSS -->
     <link rel="stylesheet" href="../principalstyle.css" />
@@ -37,7 +37,7 @@
                 <div class="container">
                     <div class=" mx-auto mb-5">
                         <h2 class="display-6 mb-2 h2-color">R&M Administração Condominial</h2>
-                        <p>
+                        <p class="light-text">
                             Este setor do Grupo R&M é responsável por todas as atividades que são de responsabilidade do síndico visando a transparência e efetividade do trabalho, além da melhora do convívio nos ambientes onde atua.<br><br>
                             Para isso, as soluções oferecidas contemplam:
                         </p>
