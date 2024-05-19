@@ -180,6 +180,237 @@ Cookie */
     height: 100%; /* Espaçamento à direita para separar o logotipo dos outros links */
 }
 
+/* Slideshow */
+
+/* Slideshow container */
+.slideshow {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  padding-bottom: 30.44%; /* ASPECTO 16:9 */
+  overflow: hidden; /* Esconde repetição fora da div*/
+  z-index: 1;
+}
+
+/* Each slide */
+.slideshow li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Span inside each slide */
+.slideshow li span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: contain; /* Adjust this to maintain aspect ratio */
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Header inside each slide */
+.slideshow li h3 {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  transition: opacity 1s ease-in-out;
+}
+
+
+/* Slide backgrounds */
+.slideshow li:nth-child(1) span {
+  background-image: url('./src/img/banner-1.png');
+}
+.slideshow li:nth-child(2) span {
+  background-image: url('./src/img/banner-2.png');
+  animation-delay: 6s;
+}
+.slideshow li:nth-child(3) span {
+  background-image: url('./src/img/banner-3.png');
+  animation-delay: 12s;
+}
+.slideshow li:nth-child(4) span {
+  background-image: url('./src/img/banner-4.png');
+  animation-delay: 18s;
+}
+
+/* Add animations */
+.slideshow li:nth-child(1) span { animation: imageAnimation 24s linear infinite 0s; }
+.slideshow li:nth-child(2) span { animation: imageAnimation 24s linear infinite 6s; }
+.slideshow li:nth-child(3) span { animation: imageAnimation 24s linear infinite 12s; }
+.slideshow li:nth-child(4) span { animation: imageAnimation 24s linear infinite 18s; }
+
+@keyframes imageAnimation {
+  0%, 20%, 100% { opacity: 0; }
+  5%, 15% { opacity: 1; }
+}
+
+@keyframes titleAnimation {
+  0%, 20%, 100% { opacity: 0; }
+  5%, 15% { opacity: 1; }
+}
+
+.no-cssanimations .slideshow li span { opacity: 1; }
+/* 
+animação no celular */
+@media only screen and (max-width: 900px) {
+  .slideshow {
+    padding-bottom: 100%; 
+  }
+
+  .slideshow li span {
+    background-size: cover; /* Adjust if needed */
+  }
+
+  .slideshow li:nth-child(1) span {
+    background-image: url('./src/img/logo.png'); 
+  }
+  .slideshow li:nth-child(2) span {
+    background-image: url('./src/img/logoadm.png'); 
+    animation-delay: 6s;
+  }
+  .slideshow li:nth-child(3) span {
+    background-image: url('./src/img/logoeng.png'); 
+    animation-delay: 12s;
+  }
+  .slideshow li:nth-child(4) span {
+    background-image: url('./src/img/logotodos.png'); 
+    animation-delay: 18s;
+  }
+}
+
+ @-webkit-keyframes 
+imageAnimation {  0% {
+ opacity: 0;
+ -webkit-animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -webkit-animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@-moz-keyframes 
+imageAnimation {  0% {
+ opacity: 0;
+ -moz-animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -moz-animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@keyframes 
+imageAnimation {  0% {
+ opacity: 0;
+ -webkit-animation-timing-function: ease-in;
+ -moz-animation-timing-function: ease-in;
+ animation-timing-function: ease-in;
+}
+ 12.5% {
+ opacity: 1;
+ -webkit-animation-timing-function: ease-out;
+ -moz-animation-timing-function: ease-out;
+ animation-timing-function: ease-out;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@-webkit-keyframes 
+titleAnimation {  0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@-moz-keyframes 
+titleAnimation {  0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+@keyframes 
+titleAnimation {  0% {
+ opacity: 0;
+}
+ 12.5% {
+ opacity: 1;
+}
+ 25% {
+ opacity: 1;
+}
+ 37.5% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+
+.no-cssanimations .slideshow li span { opacity: 1; }
+
 
 
 
@@ -191,10 +422,17 @@ Footer */
     background-color: #a26dff;
     padding: 4rem 0; }
     .footer-59391 .site-logo a {
-      font-size: 30px;
-      color: #fff;
-      font-weight: 900;
+      display: block;
+      width: 100%;
+      height: auto;
+      text-align: center; /* Center the logo */
     text-decoration: none; }
+    .footer-59391 .site-logo img {
+      max-width: 100%;
+      height: auto; /* Maintain aspect ratio */
+      display: block;
+      
+  }
     .footer-59391 .nav-links li {
       display: inline-block; }
       .footer-59391 .nav-links li a {
@@ -497,7 +735,8 @@ creditos */
 
 .belforz {
   text-decoration: none;
-  color: #ff5cc9;
+  color: black;
+  opacity: 0.7;
   
 }
 

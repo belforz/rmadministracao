@@ -34,13 +34,13 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="./php/quemsomos.php">INSTITUCIONAL</a>
           </li>
-         
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVIÇOS</a>
             <ul class="dropdown-menu">
@@ -78,13 +78,25 @@
 
   <main class="root">
 
-  <div id="cookieConsent">
-    <div id="closeCookieConsent">×</div>
-    Este site usa cookies para melhorar a experiência do usuário. <a href="#">Saber mais</a>. <a id="acceptCookie" href="#">Aceitar</a>
-</div>
-
+    <div id="cookieConsent">
+      <div id="closeCookieConsent">×</div>
+      Este site usa cookies para melhorar a experiência do usuário. <a href="#">Saber mais</a>. <a id="acceptCookie" href="#">Aceitar</a>
+    </div>
 
     <div class="container-xxl bg-light my-6 py-6 pt-0" style="background-color: #D3D3D3;">
+
+      <ul class="slideshow">
+        <li> <span></span> </li>
+        <li> <span></span> </li>
+        <li> <span></span> </li>
+        <li> <span></span> </li>
+      </ul>
+    </div>
+
+
+
+
+    <div class="container-xxl my-6 py-6 pt-0" style="background-color: transparent;margin-top:2.5rem;">
       <div class="container">
 
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -133,11 +145,11 @@
           </div>
           <div class="col-lg-3">
             <ul class="list-unstyled nav-links social nav-right text-lg-right" style="margin-left: 2rem;">
-                <li><a href="https://www.facebook.com/remadministracao"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/remadministracao/"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+              <li><a href="https://www.facebook.com/remadministracao"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://www.instagram.com/remadministracao/"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
-        </div>
+          </div>
         </div>
       </div>
     </div>
@@ -145,8 +157,11 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-4 site-logo order-1 order-lg-2 mb-3 mb-lg-0">
-          <a href="#" class="m-0 p-0">R&M Soluções</a>
+          <a href="../index.php" class="m-0 p-0">
+            <img src="./src/img/logo.png" alt="R&M Soluções" class="img-fluid">
+          </a>
         </div>
+
         <div class="col-lg-4 order-2 order-lg-1 mb-3 mb-lg-0">
 
           <a href="https://maps.app.goo.gl/ELZb6QKw3q9phies6" style="text-decoration:none !important; color:#17171D;">Endereço:
@@ -165,7 +180,7 @@
           </ul> -->
         <div class="col-lg-4 text-lg-right order-3 order-lg-3">
           <p class="m-0 text-muted"><small>&copy; 2024. R&M Soluções. Todos os direitos reservados.</small></p>
-          <p class="m-0 text-muted small-text light-text"><small>designed by <a class="belforz" href="https://portfoliobelforz.vercel.app/">belforz</a></small></p>
+          <p class="m-0 text-muted small-text light-text"><small>developed by <a class="belforz" href="https://portfoliobelforz.vercel.app/"> | belforz |</a></small></p>
         </div>
       </div>
 
@@ -177,7 +192,7 @@
     </div>
 
   </footer>
-  
+
   <!-- Jquery -->
   <script src="./src/js/jquery-3.3.1.min.js"></script>
   <script src="./src/js/popper.min.js"></script>
