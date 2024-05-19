@@ -95,108 +95,109 @@
 
 
 
+    <div class="controller-section">
+      <div class="container-xxl my-6 py-6 pt-0" style="background-color: transparent;margin-top:2.5rem;">
+        <div class="container">
 
-    <div class="container-xxl my-6 py-6 pt-0" style="background-color: transparent;margin-top:2.5rem;">
-      <div class="container">
+          <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h2 class="display-6 mb-2" #id="servicos" style="color:var(--SecondaryColor)">Nossos Produtos</h2>
 
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-          <h2 class="display-6 mb-2" #id="servicos" style="color:var(--SecondaryColor)">Nossos Produtos</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="position-relative mt-auto">
+                <a class="link-controller" href="./php/admRM.php"><img class="img-fluid" src="./src/img/logoadm.png" alt=""></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="position-relative mt-auto">
+                <a class="link-controller" href="./php/engRM.php"><img class="img-fluid" src="./src/img/logoeng.png" alt=""></a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="position-relative mt-auto">
+                <a class="link-controller" href="./php/todosRM.php"><img class="img-fluid" src="./src/img/logotodos.png" alt=""></a>
 
-        </div>
-        <div class="row g-4">
-          <div class="col-lg-4 col-md-6">
-            <div class="position-relative mt-auto">
-              <a class="link-controller" href="./php/admRM.php"><img class="img-fluid" src="./src/img/logoadm.png" alt=""></a>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="position-relative mt-auto">
-              <a class="link-controller" href="./php/engRM.php"><img class="img-fluid" src="./src/img/logoeng.png" alt=""></a>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="position-relative mt-auto">
-              <a class="link-controller" href="./php/todosRM.php"><img class="img-fluid" src="./src/img/logotodos.png" alt=""></a>
 
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    </div>
-
-  </main>
-
-  <?php include('./php/whatsapp.php'); ?>
-
-  <footer class="footer-59391">
-    <div class="pb-5 mb-4">
-      <div class="container">
-        <div class="row align-items-center" style="justify-content:center;">
-
-          <div class="col-lg-6 text-lg-center">
-            <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0" style="margin-left:2rem;">
-              <li><a href="./php/quemsomos.php">Institucional</a></li>
-              <li><a href="#servicos">Soluções</a></li>
-              <li><a href="./php/privacidade.php">Politicas de Privacidade</a></li>
-              <li><a href="./php/termos.php">Termos de Uso</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3">
-            <ul class="list-unstyled nav-links social nav-right text-lg-right" style="margin-left: 2rem;">
-              <li><a href="https://www.facebook.com/remadministracao"><i class="fab fa-facebook"></i></a></li>
-              <li><a href="https://www.instagram.com/remadministracao/"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-4 site-logo order-1 order-lg-2 mb-3 mb-lg-0">
-          <a href="../index.php" class="m-0 p-0">
-            <img src="./src/img/logo.png" alt="R&M Soluções" class="img-fluid">
-          </a>
+
+    </main>
+
+    <?php include('./php/whatsapp.php'); ?>
+
+    <footer class="footer-59391">
+      <div class="pb-5 mb-4">
+        <div class="container">
+          <div class="row align-items-center" style="justify-content:center;">
+
+            <div class="col-lg-6 text-lg-center">
+              <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0" style="margin-left:2rem;">
+                <li><a href="./php/quemsomos.php">Institucional</a></li>
+                <li><a href="#servicos">Soluções</a></li>
+                <li><a href="./php/privacidade.php">Politicas de Privacidade</a></li>
+                <li><a href="./php/termos.php">Termos de Uso</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <ul class="list-unstyled nav-links social nav-right text-lg-right" style="margin-left: 2rem;">
+                <li><a href="https://www.facebook.com/remadministracao"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/remadministracao/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <div class="col-lg-4 order-2 order-lg-1 mb-3 mb-lg-0">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 site-logo order-1 order-lg-2 mb-3 mb-lg-0">
+            <a href="../index.php" class="m-0 p-0">
+              <img src="./src/img/logo.png" alt="R&M Soluções" class="img-fluid">
+            </a>
+          </div>
 
-          <a href="https://maps.app.goo.gl/ELZb6QKw3q9phies6" style="text-decoration:none !important; color:#17171D;">Endereço:
-            <br>
-            Rua Caramuru, 417 - CJ 83
-            <br>
-            CEP 04138-001 <br>
-            Chácara Inglesa - São Paulo</a>
+          <div class="col-lg-4 order-2 order-lg-1 mb-3 mb-lg-0">
 
-        </div>
-        <!-- <ul class="list-unstyled nav-links m-0 nav-left">
+            <a href="https://maps.app.goo.gl/ELZb6QKw3q9phies6" style="text-decoration:none !important; color:#17171D;">Endereço:
+              <br>
+              Rua Caramuru, 417 - CJ 83
+              <br>
+              CEP 04138-001 <br>
+              Chácara Inglesa - São Paulo</a>
+
+          </div>
+          <!-- <ul class="list-unstyled nav-links m-0 nav-left">
             <li><a href="#">Termos de Uso</a></li>
             <li><a href="#">Sobre</a></li> 
             <li><a href="#">Politicas de Privacidade</a></li>
             <li><a href="#">Contato</a></li>
           </ul> -->
-        <div class="col-lg-4 text-lg-right order-3 order-lg-3">
-          <p class="m-0 text-muted"><small>&copy; 2024. R&M Soluções. Todos os direitos reservados.</small></p>
-          <p class="m-0 text-muted small-text light-text"><small>developed by <a class="belforz" href="https://portfoliobelforz.vercel.app/"> | belforz |</a></small></p>
+          <div class="col-lg-4 text-lg-right order-3 order-lg-3">
+            <p class="m-0 text-muted"><small>&copy; 2024. R&M Soluções. Todos os direitos reservados.</small></p>
+            <p class="m-0 text-muted small-text light-text"><small>developed by <a class="belforz" href="https://portfoliobelforz.vercel.app/"> | belforz |</a></small></p>
+          </div>
         </div>
+
+
+
+
+      </div>
+      </div>
       </div>
 
+    </footer>
 
-
-
-    </div>
-    </div>
-    </div>
-
-  </footer>
-
-  <!-- Jquery -->
-  <script src="./src/js/jquery-3.3.1.min.js"></script>
-  <script src="./src/js/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="./src/js/jquery-3.3.1.min.js"></script>
+    <script src="./src/js/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 

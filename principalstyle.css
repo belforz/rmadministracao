@@ -280,18 +280,18 @@ animação no celular */
   }
 
   .slideshow li:nth-child(1) span {
-    background-image: url('./src/img/logo.png'); 
+    background-image: url('./src/img/logocelular.jpg'); 
   }
   .slideshow li:nth-child(2) span {
-    background-image: url('./src/img/logoadm.png'); 
+    background-image: url('./src/img/logocelular4.jpg'); 
     animation-delay: 6s;
   }
   .slideshow li:nth-child(3) span {
-    background-image: url('./src/img/logoeng.png'); 
+    background-image: url('./src/img/logocelular1.jpg'); 
     animation-delay: 12s;
   }
   .slideshow li:nth-child(4) span {
-    background-image: url('./src/img/logotodos.png'); 
+    background-image: url('./src/img/logocelular2.jpg'); 
     animation-delay: 18s;
   }
 }

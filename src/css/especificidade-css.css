@@ -55,6 +55,14 @@ p , li, a{
     .image-fundo-s{
         display: none;
     }
+.image-fundo-mobile{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Isso vai garantir que a imagem se ajuste sem ser ampliada */
+
+}
 }
 
 

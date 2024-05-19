@@ -38,7 +38,7 @@
             <div class="container">
                 <div class=" mx-auto mb-5">
                     <h2 class="display-6 mb-2" style="color:#8d47fc">O Grupo R&M</h2>
-                    <p class="ligh-text">
+                    <p class="ligh-text"style="font-weight: 300;">
                         O Grupo R&M foi idealizado por Rafael Figueiredo que, ao se deparar com a falta de suporte na área, se empenhou para o avanço e qualificação no setor.<br><br>
                         Engenheiro e especialista em administração, Rafael viu, então, a oportunidade de ajudar mais pessoas e melhorar diversos processos por meio da administradora. Sua disposição em colaborar proporcionou o rápido crescimento da R&M, que hoje já totaliza mais de 1.500 unidades atendidas.<br><br>
                         Com quase 10 anos de mercado, hoje a empresa alcança um novo patamar por meio de sua ampliação, sendo nomeada a partir de 2024 como Grupo R&M, integrando inúmeras <a href="#servicos" style="color: #007bff;text-decoration:none">soluções</a>, tanto para pessoas físicas quanto para jurídicas; tanto para imóveis residenciais quanto para comerciais.<br><br>
@@ -56,7 +56,7 @@
             <div class="container">
                 <div class=" mx-auto mb-5">
                     <h2 class="display-6 mb-2" style="color:#8d47fc">Nossa Missão</h2>
-                    <p class="ligh-text">
+                    <p class="ligh-text" style="font-weight: 300;">
                         Oferecer serviço de qualidade e soluções inteligentes ao cliente até que sua necessidade seja integralmente resolvida. Para isso, a equipe R&M não mede esforços.
                     </p>
                     <h2 class="display-6 mb-2" style="color:#8d47fc">Nossa Visão</h2>

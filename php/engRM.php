@@ -34,6 +34,17 @@
                 <img class="img-fluid image-fundo" #id="engbannerback" src="../src/img/engbannerback.png" alt="Imagem de fundo">
 
             </div>
+
+            <div class="container-xxl hidden my-6 py-6 pt-0" style="margin-top:2.5rem;">
+                <div class="container">
+                    <div class=" mx-auto mb-5">
+                        <div class="image-controller hidden">
+                            <img class="image-fundo-mobile" src="../src/img/engbannercelular.png" alt="Imagem de fundo">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="container-xxl my-6 py-6 pt-0 hidden" style="background-color:transparent;margin-top:2.5rem;">
                 <div class="container">
                     <div class=" mx-auto mb-5">
