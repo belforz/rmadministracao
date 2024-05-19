@@ -8,8 +8,6 @@
 
 <link rel="icon" type="image/png" href="./src/img/logo.png">
 
-
-
 <!-- Principal CSS -->
 <link rel="stylesheet" href="principalstyle.css" />
 
@@ -40,7 +38,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./php/historiaRM.php">INSTITUCIONAL</a>
+            <a class="nav-link active" aria-current="page" href="./php/quemsomos.php">INSTITUCIONAL</a>
           </li>
          
           <li class="nav-item dropdown">
@@ -116,7 +114,7 @@
   <?php include('./php/whatsapp.php'); ?>
 
   <footer class="footer-59391">
-    <div class="border-bottom pb-5 mb-4">
+    <div class="pb-5 mb-4">
       <div class="container">
         <div class="row align-items-center" style="justify-content:center;">
 

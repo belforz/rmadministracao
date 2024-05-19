@@ -1,0 +1,85 @@
+.root{
+--TextAdmColor: #ef4523;
+}
+
+.h2-color ,.h3-color {
+    color: var(--TextAdmColor);
+}
+
+
+
+
+/* Camada controle */
+.hidden{
+    display: none;
+}
+
+.image-controller {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.image-fundo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Controle reponsividade */
+@media (max-width:900px){
+.image-fundo{
+    display: none;
+}
+}
+/* 
+Bolinha Lista */
+ol {
+    list-style-type: none; /* Remove os números padrão */
+}
+
+.bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ef4523;
+    margin-right: 5px;
+}
+
+/* Texto mobile */
+.text-container {
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+.text-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px){
+    .hidden{
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-container {
+        padding: 15px;
+    }
+    .text-container p {
+        font-size: 14px;
+    }
+    .text-container h2 {
+        font-size: 20px;
+    }
+}

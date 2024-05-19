@@ -1,31 +1,30 @@
 <footer class="footer-59391">
-    <div class="border-bottom pb-5 mb-4">
+    <div class="pb-5 mb-4">
       <div class="container">
         <div class="row align-items-center" style="justify-content:center;">
 
           <div class="col-lg-6 text-lg-center">
             <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0" style="margin-left:2rem;">
-              <li><a href="#">Institucional</a></li>
-              <li><a href="#">Soluções</a></li>
-              <li><a href="#">Politicas de Privacidade</a></li>
-              <li><a href="#">Termos de Uso</a></li>
+              <li><a href="historiaRM.php">Institucional</a></li>
+              <li><a href="#servicos">Soluções</a></li>
+              <li><a href="privacidade.php">Politicas de Privacidade</a></li>
+              <li><a href="termos.php">Termos de Uso</a></li>
             </ul>
           </div>
           <div class="col-lg-3">
-            <ul class="list-unstyled nav-links social nav-right text-lg-right" style="margin-left:2rem;">
-              <li><a href="#"><span class="icon-twitter"></span></a></li>
-              <li><a href="#"><span class="icon-instagram"></span></a></li>
-              <li><a href="#"><span class="icon-facebook"></span></a></li>
-              <li><a href="#"><span class="icon-pinterest"></span></a></li>
+            <ul class="list-unstyled nav-links social nav-right text-lg-right" style="margin-left: 2rem;">
+                <li><a href="https://www.facebook.com/remadministracao"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/remadministracao/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
-          </div>
+        </div>
         </div>
       </div>
     </div>
 
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-4 text-lg-center site-logo order-1 order-lg-2 mb-3 mb-lg-0">
+        <div class="col-lg-4 site-logo order-1 order-lg-2 mb-3 mb-lg-0">
           <a href="#" class="m-0 p-0">R&M Soluções</a>
         </div>
         <div class="col-lg-4 order-2 order-lg-1 mb-3 mb-lg-0">

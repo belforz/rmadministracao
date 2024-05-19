@@ -9,9 +9,8 @@
 
     <!-- Principal CSS -->
     <link rel="stylesheet" href="../principalstyle.css" />
-
-    <!-- Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <!-- Icons Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Bootstrap CSS -->
 
@@ -19,9 +18,9 @@
 </head>
 
 <body>
-<?php include ('./header.php'); ?>
-
-<?php include ('./footer.php'); ?>
+    <?php include('./header.php'); ?>
+    <?php include('./whatsapp.php'); ?>
+    <?php include('./footer.php'); ?>
     <script src="../src/js/jquery-3.3.1.min.js"></script>
     <script src="../src/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

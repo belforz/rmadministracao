@@ -10,8 +10,8 @@
     <!-- Principal CSS -->
     <link rel="stylesheet" href="../principalstyle.css" />
 
-    <!-- Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <!-- Icons Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Bootstrap CSS -->
 
@@ -20,7 +20,7 @@
 
 <body>
     <?php include('./header.php'); ?>
-
+    <?php include('./whatsapp.php'); ?>
     <?php include('./footer.php'); ?>
 
     <script src="../src/js/jquery-3.3.1.min.js"></script>

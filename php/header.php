@@ -15,7 +15,7 @@
             <a class="nav-link active" aria-current="page" href="../index.php">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="historiaRM.php">INSTITUCIONAL</a>
+            <a class="nav-link active" aria-current="page" href="quemsomos.php">INSTITUCIONAL</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVIÇOS</a>
