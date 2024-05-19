@@ -18,7 +18,7 @@ p , li, a{
 
 /* Exemplo de uso das variações */
 .light-text {
-    font-family: 'MyriadPro', sans-serif;
+    font-family: 'MyriadPro';
     font-weight: 300; /* Light */
 }
 
