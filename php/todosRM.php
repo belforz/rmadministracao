@@ -39,7 +39,7 @@
                 <div class="container">
                     <div class=" mx-auto mb-5">
                         <div class="image-controller hidden">
-                            <img class="image-fundo-mobile" src="../src/img/todosbannercelular.png" alt="Imagem de fundo">
+                            <img class="image-fundo-mobile" src="../src/img/instituto-mobile.png" alt="Imagem de fundo">
 
                         </div>
                     </div>
@@ -48,13 +48,13 @@
             <div class="container-xxl my-6 py-6 pt-0" style="background-color:transparent;margin-top:2.5rem;">
                 <div class="container">
                     <div class=" mx-auto mb-5">
-                        <h2 class="display-6 mb-2" style="color:#8d47fc">R&M Todos</h2>
+                        <!-- <h2 class="display-6 mb-2" style="color:#8d47fc">INSTITU</h2> -->
                         <p class="macete light-text hidden">
                             Nós acreditamos que é possível fazer a diferença começando em nosso mundo individual, com as pessoas que estão a nossa volta. Foi para isso que fundamos o Instituto R&M.<br>
 
                             <br>Nosso objetivo é levar cuidado e solidariedade às pessoas em situação de vulnerabilidade física, psíquica e/ou social.</p>
 
-                            <p class="macete-macete light-text"><br>Se você gostaria de colaborar ou recomendar uma instituição para ajudarmos, <a href="#" style="color:black;text-decoration:none;">clique aqui.</a></p>
+                            <p class="macete-macete light-text hidden"><br>Se você gostaria de colaborar ou recomendar uma instituição para ajudarmos, <a href="https://wa.me/5511999933134" style="color:black;text-decoration:none;">clique aqui.</a></p>
                         
                     </div>
 

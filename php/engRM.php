@@ -39,7 +39,7 @@
                 <div class="container">
                     <div class=" mx-auto mb-5">
                         <div class="image-controller hidden">
-                            <img class="image-fundo-mobile" src="../src/img/engbannercelular.png" alt="Imagem de fundo">
+                            <img class="image-fundo-mobile" src="../src/img/solocoes-engenharia.png" alt="Imagem de fundo">
 
                         </div>
                     </div>
@@ -48,11 +48,11 @@
             <div class="container-xxl my-6 py-6 pt-0 hidden" style="background-color:transparent;margin-top:2.5rem;">
                 <div class="container">
                     <div class=" mx-auto mb-5">
-                        <h2 class="display-6 mb-2" style="color:#55A5A5">R&M Engenharia</h2>
+                        <!-- <h2 class="display-6 mb-2" style="color:#55A5A5">R&M Engenharia</h2> -->
                         <p class="light-text">
-                            Este setor do Grupo R&M é responsável por todas as atividades que são de responsabilidade do síndico visando a transparência e efetividade do trabalho, além da melhora do convívio nos ambientes onde atua.<br><br>
-                            Para isso, as soluções oferecidas contemplam:
+                        O setor de engenharia do Grupo R&M atende construtoras e condomínios que buscam os seguintes serviços:<br>
                         </p>
+                        
                     </div>
                     <div class="row g-4" style="justify-content: center;">
                         <div class="col-lg-4 col-md-6">

@@ -17,21 +17,46 @@
 }
 /* FONTE Titulos */
 @font-face {
-  font-family: 'ProximaNovaFont';
-  src: url('./fonts/ProximaNovaFont.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'MonteSerrat';
+  src: url('./fonts/Montserrat-Bold.otf') format('opentype'); /* Use 'opentype' para OTF */
+  font-weight: bold;
+  font-style: normal; /* Defina font-style como normal para o formato bold */
 }
 
 /* Fonte Texto Corrido */
-
-/* Definindo MyriadPro Regular */
 @font-face {
   font-family: 'MyriadPro';
-  src: url('./fonts/MYRIADPRO-REGULAR.OTF') format('opentype');
+  src: url('./fonts/MYRIADPRO-REGULAR.OTF') format('opentype'); /* Use 'opentype' para OTF */
   font-weight: normal;
   font-style: normal;
 }
+
+/* Estilizando os títulos */
+h1, h2, h3, h4, h5 {
+  font-family: 'MonteSerrat', sans-serif;
+}
+
+/* Estilizando os parágrafos */
+p, li, a {
+  font-family: 'MyriadPro', sans-serif;
+  font-weight: normal; /* Regular */
+}
+
+/* Exemplo de uso das variações */
+.light-text {
+  font-family: 'MyriadPro', sans-serif;
+  font-weight: 300; /* Light */
+}
+
+.bold-text {
+  font-family: 'MyriadPro', sans-serif;
+  font-weight: bold; /* Bold */
+}
+
+.h2-color, .h3-color {
+  color: var(--TextAdmColor);
+}
+
 
 /* Definindo MyriadPro Light */
 @font-face {
@@ -66,11 +91,12 @@
 
 
 body, a{
-  font-family: 'ProximaNovaFont', 'MyriadPro';
+  font-family:'MyriadPro';
 
 }
-/* 
-Cookie */
+
+
+/* Cookie */ 
 
 #cookieConsent {
   background: rgba(20, 20, 20, 0.8);
@@ -129,13 +155,13 @@ Cookie */
 /* Area do Condomino */
 
 .hoverCondomino .nav-link {
-    color: #59429e !important;
+    color: aliceblue !important;
 }
 
 /* Estilos para o link quando está sendo "hovered" */
 .hoverCondomino .nav-link:hover {
     background-color: #0295ff;
-    color: white !important;
+    
 }
 
 /* Icon WhatsApp */
@@ -175,7 +201,7 @@ Cookie */
     margin: 0 auto;}}
 
 .logo > img{
-    border-radius: 50%;
+    /* border-radius: 10%; */
     width: 70%;
     height: 100%; /* Espaçamento à direita para separar o logotipo dos outros links */
 }
@@ -419,7 +445,7 @@ Footer */
 
 .footer-59391 {
     border-top: 1px solid #efefef;
-    background-color: #a26dff;
+    background: linear-gradient(180deg, #4400b4, #4d00c3, #1a0068);
     padding: 4rem 0; }
     .footer-59391 .site-logo a {
       display: block;
@@ -495,7 +521,7 @@ Footer */
     justify-content: center; }
       .footer-59391 .social li a {
         position: relative;
-        color: #000; /* Cor dos ícones */
+        /* color: #000; Cor dos ícones */
       font-size: 2rem; /* Tamanho dos ícones */
       transition: color 0.3s;
         border-radius: 50%;
@@ -735,7 +761,7 @@ creditos */
 
 .belforz {
   text-decoration: none;
-  color: black;
+  color: white;
   opacity: 0.7;
   
 }

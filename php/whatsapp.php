@@ -1,3 +1,3 @@
-<a href="https://wa.me/SEU_NUMERO" class="whatsapp-icon" target="_blank">
+<a href="https://wa.me/5511960603134" class="whatsapp-icon" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
