@@ -243,37 +243,21 @@ body, a{
   backface-visibility: hidden;
 }
 
-/* Header inside each slide */
-.slideshow li h3 {
-  position: absolute;
-  text-align: center;
-  z-index: 2;
-  bottom: 30px;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  font-size: 2em;
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-  transition: opacity 1s ease-in-out;
-}
-
 
 /* Slide backgrounds */
 .slideshow li:nth-child(1) span {
-  background-image: url('./src/img/banner-1.png');
+  background-image: url('./src/img/banner1.jpg');
 }
 .slideshow li:nth-child(2) span {
-  background-image: url('./src/img/banner-2.png');
+  background-image: url('./src/img/banner2.jpg');
   animation-delay: 6s;
 }
 .slideshow li:nth-child(3) span {
-  background-image: url('./src/img/banner-3.png');
+  background-image: url('./src/img/banner3.jpg');
   animation-delay: 12s;
 }
 .slideshow li:nth-child(4) span {
-  background-image: url('./src/img/banner-4.png');
+  background-image: url('./src/img/banner4.jpg');
   animation-delay: 18s;
 }
 
@@ -291,6 +275,17 @@ body, a{
 @keyframes titleAnimation {
   0%, 20%, 100% { opacity: 0; }
   5%, 15% { opacity: 1; }
+}
+
+@media only screen and (min-width: 1400px) {
+  .slideshow {
+    
+  }
+
+  .slideshow li span {
+    background-size: cover; /* Cobrir o container */
+   
+  }
 }
 
 .no-cssanimations .slideshow li span { opacity: 1; }
@@ -321,6 +316,9 @@ animação no celular */
     animation-delay: 18s;
   }
 }
+/* Animação para telas maiores que 1400px */
+
+
 
  @-webkit-keyframes 
 imageAnimation {  0% {

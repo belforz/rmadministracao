@@ -6,27 +6,27 @@
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <div class="controller-logo-mobile">
         <div class="logo">
-          <img src="../src/img/logo-branco.png" alt="">
+          <img src="src/img/logo-branco.png" alt="">
         </div>
       </div>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color:aliceblue;">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.php">HOME</a>
+            <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="quemsomos.php">INSTITUCIONAL</a>
+            <a class="nav-link active" aria-current="page" href="/quemsomos.php">INSTITUCIONAL</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVIÇOS</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="admRM.php">R&M ADMINISTRAÇÃO</a></li>
-              <li><a class="dropdown-item" href="engRM.php">R&M ENGENHARIA</a></li>
-              <li><a class="dropdown-item" href="todosRM.php">INSTITUTO R&M</a></li>
+              <li><a class="dropdown-item" href="php/admRM.php">R&M ADMINISTRAÇÃO</a></li>
+              <li><a class="dropdown-item" href="php/engRM.php">R&M ENGENHARIA</a></li>
+              <li><a class="dropdown-item" href="php/todosRM.php">INSTITUTO R&M</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contato.php">CONTATO</a>
+            <a class="nav-link" href="php/contato.php">CONTATO</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="blog.php">BLOG</a>

@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Termos de Uso</title>
-    <link rel="icon" type="image/png" href="../src/img/logo.png">
+    <link rel="icon" type="image/png" href="src/img/logo.png">
+    <!-- ROTA -->
+    <base href="/rmadministracao/">
 
     <!-- Principal CSS -->
-    <link rel="stylesheet" href="../principalstyle.css" />
-
+    <link rel="stylesheet" href="principalstyle.css" />
     <!-- Customized CSS -->
-    <link rel="stylesheet" href="../src/css/especificidade-css.css" />
+    <link rel="stylesheet" href="src/css/especificidade-css.css" />
 
 
     <!-- Icons Awesome -->
@@ -23,7 +24,7 @@
 </head>
 
 <body>
-    <?php include('./header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/header.php'; ?>
     <main class="root">
         <div class="container-xxl my-6 py-6 pt-0" style="background-color:transparent;margin-top:2.5rem;">
             <div class="container">
@@ -88,9 +89,10 @@
         </div>
 
 
-        <?php include('./whatsapp.php'); ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
     </main>
-    <?php include('./footer.php'); ?>
+    
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
 
     <script src="../src/js/jquery-3.3.1.min.js"></script>
     <script src="../src/js/popper.min.js"></script>

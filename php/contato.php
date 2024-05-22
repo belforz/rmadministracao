@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R&M Contato</title>
-    <link rel="icon" type="image/png" href="../src/img/logo.png">
+    <link rel="icon" type="image/png" href="src/img/logo.png">
+
+    <!-- ROTA -->
+    <base href="/rmadministracao/">
 
     <!-- Principal CSS -->
-    <link rel="stylesheet" href="../principalstyle.css" />
+    <link rel="stylesheet" href="principalstyle.css" />
 
     <!-- Customized CSS -->
-    <link rel="stylesheet" href="../src/css/especificidade-css.css" />
+    <link rel="stylesheet" href="src/css/especificidade-css.css" />
     <!-- Icons Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -21,16 +24,24 @@
 </head>
 
 <body>
-    <?php include('./header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/header.php'; ?>
 
     <main class="root">
 
         <div class="container-xxl my-6 py-6 pt-0" style="background-color: transparent ;margin-top:2.5rem;">
             <div class="container">
+            <div class=" mx-auto mb-5">
+                        <h2 class="display-6 mb-2">R&M Contato</h2>
+                        <p class="light-text">
+                            Conheça-nos.
+                        </p>
                 <div class="row g-4">
                     <div class="col-lg-3 col-md-6">
+                    
                         <div class="product-item d-flex flex-column rounded overflow-hidden h-100">
+                        
                             <div class="text-center p-4">
+                                
                                 <a href="https://www.instagram.com/remadministracao/"><svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#0F0F0F" />
                                         <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#0F0F0F" />
@@ -82,11 +93,12 @@
 
 
 
-        <?php include('./whatsapp.php'); ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
     </main>
-    <?php include('./footer.php'); ?>
-    <script src="../src/js/jquery-3.3.1.min.js"></script>
-    <script src="../src/js/popper.min.js"></script>
+    
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
+    <script src="src/js/jquery-3.3.1.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

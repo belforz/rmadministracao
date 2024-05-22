@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R&M Administração</title>
-    <link rel="icon" type="image/png" href="../src/img/logoadm.png">
+    <link rel="icon" type="image/png" href="src/img/logoadm.png">
+    <!-- ROTA -->
+    <base href="/rmadministracao/">
 
     <!-- Principal CSS -->
-    <link rel="stylesheet" href="../principalstyle.css" />
+    <link rel="stylesheet" href="principalstyle.css" />
     <!-- Customized CSS -->
-    <link rel="stylesheet" href="../src/css/especificidade-css.css" />
+    <link rel="stylesheet" href="src/css/especificidade-css.css" />
 
 
     <!-- Icons Awesome -->
@@ -23,19 +25,19 @@
 
 <body>
 
-    <?php include('./header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/header.php'; ?>
 
     <main class="root">
         <section class="main-class">
             <div class="image-controller">
-                <img class="img-fluid image-fundo" src="../src/img/admbanner.png" alt="Imagem de fundo">
+                <img class="img-fluid image-fundo" src="src/img/admbanner.png" alt="Imagem de fundo">
 
             </div>
             <div class="container-xxl my-6 py-6 pt-0" style="margin-top:2.5rem;">
                 <div class="container">
                     <div class=" mx-auto mb-5">
                         <div class="image-controller hidden">
-                            <img class="image-fundo-mobile" src="../src/img/solocoes-admin.png" alt="Imagem de fundo">
+                            <img class="image-fundo-mobile" src="src/img/solocoes-admin.png" alt="Imagem de fundo">
 
                         </div>
                     </div>
@@ -56,7 +58,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item d-flex flex-column rounded overflow-hidden h-100">
                                 <div class="text-center p-4">
-                                    <img src="../src/img/icone-adm.png">
+                                    <img src="src/img/icone-adm.png">
                                     <h3 class="mb-3 h2-color">ADMINISTRAÇÃO</h3>
                                     <ol class="text-start">
                                         <li><span class="bullet"></span>Emissão de editais de convocação de assembleia</li>
@@ -75,7 +77,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item d-flex flex-column rounded overflow-hidden h-100">
                                 <div class="text-center p-4">
-                                <img src="../src/img/icone-financeiro.png">
+                                <img src="src/img/icone-financeiro.png">
                                     <h3 class="mb-3 h3-color ligh-text">GESTÃO FINANCEIRA</h3>
                                     <ol class="text-start lighttext">
                                         <li><span class="bullet"></span>Emissão da cobrança de taxas de condomínio</li>
@@ -97,7 +99,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item d-flex flex-column rounded overflow-hidden h-100">
                                 <div class="text-center p-4">
-                                <img src="../src/img/icone-recursos-humanos.png">
+                                <img src="src/img/icone-recursos-humanos.png">
 
                                     <h3 class="mb-3 h3-color">RECURSOS HUMANOS</h3>
                                     <ol class="text-start">
@@ -117,8 +119,8 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item d-flex flex-column rounded overflow-hidden h-100">
                                 <div class="text-center p-4">
-                                <img src="../src/img/icone-acessoria-juridica.png">
-                                    <h3 class="mb-3 h3-color">ASSESORIA JURÍDICA</h3>
+                                <img src="src/img/icone-acessoria-juridica.png">
+                                    <h3 class="mb-3 h3-color">ASSESSORIA JURÍDICA</h3>
                                     <ol class="text-start">
                                         <li><span class="bullet"></span>Cartas de cobrança conforme regulamentação do condomínio (síndico)</li>
                                         <li><span class="bullet"></span>Notificações extrajudiciais</li>
@@ -135,7 +137,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="product-item d-flex flex-column rounded overflow-hidden h-100">
                                 <div class="text-center p-4">
-                                <img src="../src/img/icone-gestao-de-qualidade.png">
+                                <img src="src/img/icone-gestao-de-qualidade.png">
                                     <h3 class="mb-3 h3-color">GESTAO DE QUALIDADE</h3>
                                     <ol class="text-start">
                                         <li><span class="bullet"></span>Elaboração dos orçamentos e mapa de concorrência</li>
@@ -179,12 +181,14 @@
 
         </section>
 
-        <?php include('./whatsapp.php'); ?>
+        
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
     </main>
-    <?php include('./footer.php'); ?>
+    
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
 
-    <script src="../src/js/jquery-3.3.1.min.js"></script>
-    <script src="../src/js/popper.min.js"></script>
+    <script src="src/js/jquery-3.3.1.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

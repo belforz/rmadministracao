@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem Somos - R&M</title>
-    <link rel="icon" type="image/png" href="../src/img/logo.png">
+    <link rel="icon" type="image/png" href="src/img/logo.png">
+    <!-- ROTA -->
+    <base href="/rmadministracao/">
 
     <!-- Principal CSS -->
-    <link rel="stylesheet" href="../principalstyle.css" />
-
+    <link rel="stylesheet" href="principalstyle.css" />
     <!-- Customized CSS -->
-    <link rel="stylesheet" href="../src/css/especificidade-css.css" />
+    <link rel="stylesheet" href="src/css/especificidade-css.css" />
 
     <!-- Icons Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -23,14 +24,14 @@
 
 <body>
 
-    <?php include('./header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/header.php'; ?>
     <section class="main-class">
         <div class="image-controller">
-            <img class="img-fluid image-fundo" src="../src/img/quemsomos.png" alt="Imagem de fundo">
+            <img class="img-fluid image-fundo" src="src/img/quemsomos.png" alt="Imagem de fundo">
 
         </div>
         <div class="image-controller">
-            <img class="img-fluid image-fundo" src="../src/img/historiabanner2.png" alt="Imagem de fundo">
+            <img class="img-fluid image-fundo" src="src/img/historiabanner2.png" alt="Imagem de fundo">
 
         </div>
 
@@ -124,11 +125,13 @@
 
     </section>
     <section class="outra">
-        <?php include('./whatsapp.php'); ?>
-        <?php include('./footer.php'); ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
+    
+    
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
     </section>
-    <script src="../src/js/jquery-3.3.1.min.js"></script>
-    <script src="../src/js/popper.min.js"></script>
+    <script src="src/js/jquery-3.3.1.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

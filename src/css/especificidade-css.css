@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5 {
   /* 
 
 /* Estilizando os parágrafos */
-p , li, a{
+p , a{
     font-family: 'MyriadPro', sans-serif;
     font-weight: 300; /* Regular */
 }

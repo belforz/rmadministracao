@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todos R&M</title>
-    <link rel="icon" type="image/png" href="./src/img/logo.png">
+    <link rel="icon" type="image/png" href="src/img/logotodos.png">
+
+    <!-- ROTA -->
+    <base href="/rmadministracao/">
 
     <!-- Principal CSS -->
-    <link rel="stylesheet" href="../principalstyle.css" />
-
+    <link rel="stylesheet" href="principalstyle.css" />
     <!-- Customized CSS -->
-    <link rel="stylesheet" href="../src/css/especificidade-css.css" />
+    <link rel="stylesheet" href="src/css/especificidade-css.css" />
 
 
     <!-- Icons Awesome -->
@@ -24,13 +26,13 @@
 
 <body>
 
-    <?php include('./header.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/header.php'; ?>
 
 
     <main class="root">
         <section class="main-class">
             <div class="image-controller">
-                <img class="img-fluid image-fundo" src="../src/img/todosbanner.png" alt="Imagem de fundo">
+                <img class="img-fluid image-fundo" src="src/img/todosbanner.png" alt="Imagem de fundo">
 
             </div>
             </div>
@@ -39,7 +41,7 @@
                 <div class="container">
                     <div class=" mx-auto mb-5">
                         <div class="image-controller hidden">
-                            <img class="image-fundo-mobile" src="../src/img/instituto-mobile.png" alt="Imagem de fundo">
+                            <img class="image-fundo-mobile" src="src/img/instituto-mobile.png" alt="Imagem de fundo">
 
                         </div>
                     </div>
@@ -52,10 +54,11 @@
                         <p class="macete light-text hidden">
                             Nós acreditamos que é possível fazer a diferença começando em nosso mundo individual, com as pessoas que estão a nossa volta. Foi para isso que fundamos o Instituto R&M.<br>
 
-                            <br>Nosso objetivo é levar cuidado e solidariedade às pessoas em situação de vulnerabilidade física, psíquica e/ou social.</p>
+                            <br>Nosso objetivo é levar cuidado e solidariedade às pessoas em situação de vulnerabilidade física, psíquica e/ou social.
+                        </p>
 
-                            <p class="macete-macete light-text hidden"><br>Se você gostaria de colaborar ou recomendar uma instituição para ajudarmos, <a href="https://wa.me/5511999933134" style="color:black;text-decoration:none;">clique aqui.</a></p>
-                        
+                        <p class="macete-macete light-text hidden"><br>Se você gostaria de colaborar ou recomendar uma instituição para ajudarmos, <a href="https://wa.me/5511999933134" style="color:black;text-decoration:none;">clique aqui.</a></p>
+
                     </div>
 
                 </div>
@@ -64,11 +67,12 @@
         </section>
 
 
-        <?php include('./whatsapp.php'); ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
     </main>
-    <?php include('./footer.php'); ?>
-    <script src="../src/js/jquery-3.3.1.min.js"></script>
-    <script src="../src/js/popper.min.js"></script>
+    
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
+    <script src="src/js/jquery-3.3.1.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 

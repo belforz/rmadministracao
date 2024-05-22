@@ -6,7 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> R&M Administração </title>
 
-<link rel="icon" type="image/png" href="./src/img/logo.png">
+<link rel="icon" type="image/png" href="src/img/logo.png">
+
+ <!-- ROTA -->
+ <base href="/rmadministracao/">
 
 <!-- Principal CSS -->
 <link rel="stylesheet" href="principalstyle.css" />
@@ -35,22 +38,22 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color:aliceblue;">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
+            <a class="nav-link active" aria-current="page" href="/home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./php/quemsomos.php">INSTITUCIONAL</a>
+            <a class="nav-link active" aria-current="page" href="/quemsomos.php">INSTITUCIONAL</a>
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVIÇOS</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./php/engRM.php">R&M ADMINISTRAÇÃO</a></li>
-              <li><a class="dropdown-item" href="./php/todosRM.php">R&M ENGENHARIA</a></li>
-              <li><a class="dropdown-item" href="./php/admRM.php">INSTITUTO R&M</a></li>
+              <li><a class="dropdown-item" href="php/engRM">R&M ADMINISTRAÇÃO</a></li>
+              <li><a class="dropdown-item" href="php/todosRM">R&M ENGENHARIA</a></li>
+              <li><a class="dropdown-item" href="php/admRM">INSTITUTO R&M</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./php/contato.php">CONTATO</a>
+            <a class="nav-link" href="php/contato.php">CONTATO</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="./php/blog.php">BLOG</a>
@@ -83,7 +86,6 @@
       Este site usa cookies para melhorar a experiência do usuário. <a href="#">Saber mais</a>. <a id="acceptCookie" href="#">Aceitar</a>
     </div>
 
-    <div class="container-xxl bg-light my-6 py-6 pt-0" style="background-color: #D3D3D3;">
 
       <ul class="slideshow">
         <li> <span></span> </li>
@@ -91,7 +93,6 @@
         <li> <span></span> </li>
         <li> <span></span> </li>
       </ul>
-    </div>
 
 
 
@@ -100,23 +101,23 @@
         <div class="container">
 
           <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h2 class="display-6 mb-2" #id="servicos" style="color:var(--SecondaryColor)">Nossos Produtos</h2>
+            <!-- <h2 class="display-6 mb-2" #id="servicos" style="color:var(--SecondaryColor)">Nossos Produtos</h2> -->
 
           </div>
           <div class="row g-4">
             <div class="col-lg-4 col-md-6">
               <div class="position-relative mt-auto">
-                <a class="link-controller" href="./php/admRM.php"><img class="img-fluid" src="./src/img/logoadm.png" alt=""></a>
+                <a class="link-controller" href="php/admRM"><img class="img-fluid" src="src/img/logoadm.png" alt=""></a>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="position-relative mt-auto">
-                <a class="link-controller" href="./php/engRM.php"><img class="img-fluid" src="./src/img/logoeng.png" alt=""></a>
+                <a class="link-controller" href="php/engRM.php"><img class="img-fluid" src="src/img/logoeng.png" alt=""></a>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="position-relative mt-auto">
-                <a class="link-controller" href="./php/todosRM.php"><img class="img-fluid" src="./src/img/logotodos.png" alt=""></a>
+                <a class="link-controller" href="php/todosRM.php"><img class="img-fluid" src="src/img/logotodos.png" alt=""></a>
 
               </div>
             </div>
@@ -129,16 +130,15 @@
 
     </main>
 
-    <?php include('./php/whatsapp.php'); ?>
-    <?php include('./php/footer.php'); ?>
-
-     
-
-    </footer>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
+    
+    
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
+  
 
     <!-- Jquery -->
-    <script src="./src/js/jquery-3.3.1.min.js"></script>
-    <script src="./src/js/popper.min.js"></script>
+    <script src="src/js/jquery-3.3.1.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

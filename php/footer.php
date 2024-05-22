@@ -5,10 +5,10 @@
 
         <div class="col-lg-4 text-lg-center mb-4 mb-lg-0">
           <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0">
-            <li><a href="quemsomos.php">Institucional</a></li>
-            <li><a href="../index.php#servicos">Soluções</a></li>
-            <li><a href="privacidade.php">Politicas de Privacidade</a></li>
-            <li><a href="termos.php">Termos de Uso</a></li>
+            <li><a href="/quemsomos">Institucional</a></li>
+            <li><a href="/home#servicos">Soluções</a></li>
+            <li><a href="/privacidade">Politicas de Privacidade</a></li>
+            <li><a href="/termos">Termos de Uso</a></li>
           </ul>
         </div>
 
@@ -17,7 +17,7 @@
     display: flex;">
             <li><a href="https://www.facebook.com/remadministracao"><i class="fab fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/remadministracao/"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://wa.me/5511960603134"><i class="fab fa-whatsapp"></i></a></li>
           </ul>
         </div>
 
