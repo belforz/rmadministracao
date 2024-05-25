@@ -7,7 +7,7 @@
     <title>Quem Somos - R&M</title>
     <link rel="icon" type="image/png" href="src/img/logo.png">
     <!-- ROTA -->
-    <base href="/rmadministracao/">
+    <base href="/">
 
     <!-- Principal CSS -->
     <link rel="stylesheet" href="principalstyle.css" />
@@ -24,7 +24,7 @@
 
 <body>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/php/header.php'; ?>
     <section class="main-class">
         <div class="image-controller">
             <img class="img-fluid image-fundo" src="src/img/quemsomos.png" alt="Imagem de fundo">
@@ -125,10 +125,10 @@
 
     </section>
     <section class="outra">
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/whatsapp.php'; ?>
     
     
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/footer.php'; ?>
     </section>
     <script src="src/js/jquery-3.3.1.min.js"></script>
     <script src="src/js/popper.min.js"></script>

@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light ">
+<nav class="navbar navbar-expand-lg navbar-light "style=" --bs-navbar-padding-x: initial !important;
+  --bs-navbar-padding-y: initial !important;">
     <div class="container-fluid" style="background: linear-gradient(180deg, #4400b4, #4d00c3, #1a0068);">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -6,27 +7,27 @@
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <div class="controller-logo-mobile">
         <div class="logo">
-          <img src="src/img/logo-branco.png" alt="">
+        <a href="/"style="text-decoration:none;"><img src="src/img/logo-branco.png" alt=""></a> 
         </div>
       </div>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="color:aliceblue;">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
+            <a class="nav-link active" aria-current="page" href="/home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/quemsomos.php">INSTITUCIONAL</a>
+            <a class="nav-link active" aria-current="page" href="/quemsomos">INSTITUCIONAL</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVIÇOS</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="php/admRM.php">R&M ADMINISTRAÇÃO</a></li>
-              <li><a class="dropdown-item" href="php/engRM.php">R&M ENGENHARIA</a></li>
-              <li><a class="dropdown-item" href="php/todosRM.php">INSTITUTO R&M</a></li>
+              <li><a class="dropdown-item" href="/admRM">R&M ADMINISTRAÇÃO</a></li>
+              <li><a class="dropdown-item" href="/engRM">R&M ENGENHARIA</a></li>
+              <li><a class="dropdown-item" href="/todosRM">INSTITUTO R&M</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="php/contato.php">CONTATO</a>
+            <a class="nav-link" href="/contato">CONTATO</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="blog.php">BLOG</a>

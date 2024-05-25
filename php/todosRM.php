@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="src/img/logotodos.png">
 
     <!-- ROTA -->
-    <base href="/rmadministracao/">
+    <base href="/">
 
     <!-- Principal CSS -->
     <link rel="stylesheet" href="principalstyle.css" />
@@ -26,7 +26,7 @@
 
 <body>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/php/header.php'; ?>
 
 
     <main class="root">
@@ -67,10 +67,10 @@
         </section>
 
 
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/whatsapp.php'; ?>
     </main>
     
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/footer.php'; ?>
     <script src="src/js/jquery-3.3.1.min.js"></script>
     <script src="src/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

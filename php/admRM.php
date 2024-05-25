@@ -7,7 +7,7 @@
     <title>R&M Administração</title>
     <link rel="icon" type="image/png" href="src/img/logoadm.png">
     <!-- ROTA -->
-    <base href="/rmadministracao/">
+    <base href="/">
 
     <!-- Principal CSS -->
     <link rel="stylesheet" href="principalstyle.css" />
@@ -25,7 +25,7 @@
 
 <body>
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/php/header.php'; ?>
 
     <main class="root">
         <section class="main-class">
@@ -103,14 +103,15 @@
 
                                     <h3 class="mb-3 h3-color">RECURSOS HUMANOS</h3>
                                     <ol class="text-start">
-                                        <li><span class="bullet"></span>Emissão de editais de convocação de assembleia</li>
-                                        <li><span class="bullet"></span>Elaboração de comunicados</li>
-                                        <li><span class="bullet"></span>Cadastro de condôminos</li>
-                                        <li><span class="bullet"></span>Confecção de pastas de prestação de contas</li>
-                                        <li><span class="bullet"></span>Assessoria nas assembleias Ordinária e Extraordinária</li>
-                                        <li><span class="bullet"></span>Redação de Atas</li>
-                                        <li><span class="bullet"></span>Encaminhamento para registro em cartório das Atas</li>
-                                        <li><span class="bullet"></span>Atendimento exclusivo aos condôminos no horário comercial</li>
+                                        <li><span class="bullet"></span>Recrutamento e seleção de colaborades/prestadores de serviço</li>
+                                        <li><span class="bullet"></span>Registro de admissões de condomínio</li>
+                                        <li><span class="bullet"></span>Elaboração mensal ds folha de pagamento e escala de revezamento</li>
+                                        <li><span class="bullet"></span>Controle de férias e horas extras</li>
+                                        <li><span class="bullet"></span>Operacionalização de benefícios, tais como plano médico, VT, VR, VA e outros</li>
+                                        <li><span class="bullet"></span>Acompanhamento de exames periódicos de controle de saúde ocupacional, como NR's, ASO e PPRA</li>
+                                        <li><span class="bullet"></span>Controle de privsão de férias e 13º salário</li>
+                                        <li><span class="bullet"></span>Recisões contratuais</li>
+                                        <li><span class="bullet"></span>Homologações de funcionários junto ao sindicato ou justiça do trabalho</li>
                                     </ol>
                                 </div>
 
@@ -123,7 +124,6 @@
                                     <h3 class="mb-3 h3-color">ASSESSORIA JURÍDICA</h3>
                                     <ol class="text-start">
                                         <li><span class="bullet"></span>Cartas de cobrança conforme regulamentação do condomínio (síndico)</li>
-                                        <li><span class="bullet"></span>Notificações extrajudiciais</li>
                                         <li><span class="bullet"></span>Notificações extrajudiciais</li>
                                         <li><span class="bullet"></span>Indicação de escritório jurídico para ingressar com ação de execução</li>
                                         <li><span class="bullet"></span>Relatório mensal do andamento das ações em trânsito</li>
@@ -182,10 +182,10 @@
         </section>
 
         
-        <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
+        <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/whatsapp.php'; ?>
     </main>
     
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/footer.php'; ?>
 
     <script src="src/js/jquery-3.3.1.min.js"></script>
     <script src="src/js/popper.min.js"></script>

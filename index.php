@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" href="src/img/logo.png">
 
  <!-- ROTA -->
- <base href="/rmadministracao/">
+ <base href="/">
 
 <!-- Principal CSS -->
 <link rel="stylesheet" href="principalstyle.css" />
@@ -24,7 +24,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light ">
+  <nav class="navbar navbar-expand-lg navbar-light" style="--bs-navbar-padding-x: initial !important;
+  --bs-navbar-padding-y: initial !important;">
     <div class="container-fluid" style="background: linear-gradient(180deg, #4400b4, #4d00c3, #1a0068);">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,7 +33,7 @@
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <div class="controller-logo-mobile">
         <div class="logo">
-          <img src="./src/img/logo-branco.png" alt="">
+          <a href="/" style="text-decoration:none;"><img src="./src/img/logo-branco.png" alt=""></a>
         </div>
       </div>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -41,19 +42,19 @@
             <a class="nav-link active" aria-current="page" href="/home">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/quemsomos.php">INSTITUCIONAL</a>
+            <a class="nav-link active" aria-current="page" href="/quemsomos">INSTITUCIONAL</a>
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">SERVIÇOS</a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="php/engRM">R&M ADMINISTRAÇÃO</a></li>
-              <li><a class="dropdown-item" href="php/todosRM">R&M ENGENHARIA</a></li>
-              <li><a class="dropdown-item" href="php/admRM">INSTITUTO R&M</a></li>
+              <li><a class="dropdown-item" href="/admRM">R&M ADMINISTRAÇÃO</a></li>
+              <li><a class="dropdown-item" href="/engRM">R&M ENGENHARIA</a></li>
+              <li><a class="dropdown-item" href="/todosRM">INSTITUTO R&M</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="php/contato.php">CONTATO</a>
+            <a class="nav-link" href="/contato">CONTATO</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="./php/blog.php">BLOG</a>
@@ -96,7 +97,7 @@
 
 
 
-    <div class="controller-section">
+    <div class="controller-section" id="servicos">
       <div class="container-xxl my-6 py-6 pt-0" style="background-color: transparent;margin-top:2.5rem;">
         <div class="container">
 
@@ -107,17 +108,17 @@
           <div class="row g-4">
             <div class="col-lg-4 col-md-6">
               <div class="position-relative mt-auto">
-                <a class="link-controller" href="php/admRM"><img class="img-fluid" src="src/img/logoadm.png" alt=""></a>
+                <a class="link-controller" href="https://www.remadministracao.com.br/admRM"><img class="img-fluid" src="src/img/logoadm.png" alt=""></a>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="position-relative mt-auto">
-                <a class="link-controller" href="php/engRM.php"><img class="img-fluid" src="src/img/logoeng.png" alt=""></a>
+                <a class="link-controller" href="https://www.remadministracao.com.br/engRM"><img class="img-fluid" src="src/img/logoeng.png" alt=""></a>
               </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <div class="position-relative mt-auto">
-                <a class="link-controller" href="php/todosRM.php"><img class="img-fluid" src="src/img/logotodos.png" alt=""></a>
+                <a class="link-controller" href="https://www.remadministracao.com.br/todosRM"><img class="img-fluid" src="src/img/logotodos.png" alt=""></a>
 
               </div>
             </div>
@@ -130,10 +131,10 @@
 
     </main>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/whatsapp.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/whatsapp.php'; ?>
     
     
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/rmadministracao/php/footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/footer.php'; ?>
   
 
     <!-- Jquery -->

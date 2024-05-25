@@ -5,7 +5,7 @@
 
         <div class="col-lg-4 text-lg-center mb-4 mb-lg-0">
           <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0">
-            <li><a href="/quemsomos">Institucional</a></li>
+            <li><a href="https://www.remadministracao.com.br/quemsomos">Institucional</a></li>
             <li><a href="/home#servicos">Soluções</a></li>
             <li><a href="/privacidade">Politicas de Privacidade</a></li>
             <li><a href="/termos">Termos de Uso</a></li>
