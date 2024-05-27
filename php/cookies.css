@@ -1,0 +1,21 @@
+#cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #4400b4, #4d00c3, #1a0068);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+
+#cookie-consent button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-color: aliceblue;
+    background: linear-gradient(25deg, #4400b4, #1a0068);
+    color: white;
+    cursor: pointer;
+}

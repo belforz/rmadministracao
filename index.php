@@ -8,8 +8,8 @@
 
 <link rel="icon" type="image/png" href="src/img/logo.png">
 
- <!-- ROTA -->
- <base href="/">
+<!-- ROTA -->
+<base href="/">
 
 <!-- Principal CSS -->
 <link rel="stylesheet" href="principalstyle.css" />
@@ -82,18 +82,14 @@
 
   <main class="root">
 
-    <div id="cookieConsent">
-      <div id="closeCookieConsent">×</div>
-      Este site usa cookies para melhorar a experiência do usuário. <a href="#">Saber mais</a>. <a id="acceptCookie" href="#">Aceitar</a>
-    </div>
 
 
-      <ul class="slideshow">
-        <li> <span></span> </li>
-        <li> <span></span> </li>
-        <li> <span></span> </li>
-        <li> <span></span> </li>
-      </ul>
+    <ul class="slideshow">
+      <li> <span></span> </li>
+      <li> <span></span> </li>
+      <li> <span></span> </li>
+      <li> <span></span> </li>
+    </ul>
 
 
 
@@ -129,19 +125,39 @@
     </div>
 
 
-    </main>
+  </main>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/whatsapp.php'; ?>
-    
-    
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/footer.php'; ?>
-  
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/whatsapp.php'; ?>
 
-    <!-- Jquery -->
-    <script src="src/js/jquery-3.3.1.min.js"></script>
-    <script src="src/js/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+
+
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/php/footer.php'; ?>
+
+  <div class="container-xxl my-6 py-6 pt-0" style="background-color: transparent;margin-top:2.5rem;"></div>
+  <div id="cookie-consent">
+  <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 0 24 24" width="50px" fill="#fff">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M18.2 10c.07-.33.11-.66.11-1 0-2.76-2.24-5-5-5-.34 0-.67.04-1 .11-.71-1.26-2.04-2.11-3.6-2.11-2.21 0-4 1.79-4 4 0 1.56.85 2.89 2.11 3.6-.07.33-.11.66-.11 1 0 2.76 2.24 5 5 5 .34 0 .67-.04 1-.11.71 1.26 2.04 2.11 3.6 2.11 2.21 0 4-1.79 4-4 0-1.56-.85-2.89-2.11-3.6zM10 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm0 8c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm6 2c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm0-6c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1z"/>
+        </svg>
+    <p>
+        
+        <span>Utilizamos cookies para melhorar sua experiência no nosso site. Ao continuar navegando, você concorda com nossa política de cookies. <br><a href="/privacidade">Saiba mais</a></span>
+        
+    </p>
+    <button onclick="acceptCookies()">Aceitar</button>
+    <button onclick="declineCookies()">Recusar</button>
+</div>
+
+
+  </div>
+
+
+  <!-- Jquery -->
+  <script src="src/js/jquery-3.3.1.min.js"></script>
+  <script src="src/js/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/principal-js.js"></script>
 </body>
 
 </html>

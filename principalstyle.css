@@ -112,25 +112,6 @@ body, a{
   text-align: center;
 }
 
-#cookieConsent a {
-  color: #ffcc00;
-  text-decoration: none;
-}
-
-#closeCookieConsent {
-  float: right;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-#acceptCookie {
-  background: #ffcc00;
-  color: #000;
-  padding: 5px 10px;
-  text-decoration: none;
-  margin-left: 10px;
-  border-radius: 5px;
-}
 
 
 /* Estilos para itens de navegação */
@@ -436,6 +417,59 @@ titleAnimation {  0% {
 
 .no-cssanimations .slideshow li span { opacity: 1; }
 
+
+/* Cookies */
+#cookie-consent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 400px;
+  background: linear-gradient(180deg, #4400b4, #4d00c3, #1a0068);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000; /* Garantir que o popup fique sobreposto a outros elementos */
+  display: none;
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+}
+
+#cookie-consent p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espaço entre o texto e o ícone */
+  margin-bottom: 20px; /* Espaço inferior para o parágrafo */
+}
+
+#cookie-consent p span {
+  flex: 1;
+}
+
+#cookie-consent svg {
+  margin-right: 10px;
+}
+
+#cookie-consent a {
+  text-decoration: none;
+  color: white;
+}
+
+#cookie-consent a:hover {
+  color: blue;
+}
+
+#cookie-consent button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(25deg, #4400b4, #1a0068);
+  color: white;
+  cursor: pointer;
+  border-radius: 4px; /* Bordas arredondadas para os botões */
+}
 
 
 
